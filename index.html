@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>BMI Calculator</h2>
+      <h3 id="info">Enter height (cm) and weight (kg)</h3>
+      <p class="input">Height</p>
+      <input type="number" onfocus="this.value=''" id="height" />
+      <p class="input">Weight</p>
+      <input type="number" onfocus="this.value=''" id="weight" />
+      <!-- loader image -->
+      <div class="loader">
+        <img src="images/WMDx.gif" alt="" />
+      </div>
+      <p id="output"></p>
+      <p id="state"></p>
+      <!-- create 2 buttons: calculate and clear -->
+      <button id="btn" class="calculate">Calculate</button>
+      <button id="btn" class="clear">Clear</button>
+      <br />
+      <br />
+      <!-- footer -->
+      <footer class="footer">&copy; Designed by Mohamed Werah</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
