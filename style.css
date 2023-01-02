@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    min-height: 98vh;
+    min-height: 100vh;
     background: url(images/pixabay.jpg) no-repeat center center /cover;
     user-select: none;
     
